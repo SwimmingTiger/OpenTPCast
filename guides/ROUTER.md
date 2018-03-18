@@ -32,6 +32,12 @@ Alternatively, using a more reliable router to overcome poor connection or bandw
 - D-Link AC1750
 - Linksys WRT1900ACS
 - Netgear WNDR3700
+- Google Wifi 
+
+## Remove TPCast router entierly
+ 	1) SSH in and modify the /etc/wpa_supplicant/wpa_sublicant.conf 
+	2) remove all network entrys except the first one, then change the SSID and the PSK to match your network. 
+	3) save and reboot
 
 ## Running The TPCast Router Independently From Your Home Router
 *Official configuration: Connect the TPCast Router between PC and Home Router.*
